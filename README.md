@@ -16,7 +16,7 @@
              LogBack也是一个很成熟的日志框架，其实LogBack和Log4j出自一个人之手，
              logback当前分成三个模块：logback-core,logback- classic和logback-access。
              logback-core是其它两个模块的基础模块。
-             logback-classic是Log4j的一个改良版本。此外logback-classic完整实现SLF4J API使你可以很
+             logback-classic是Log4j的一个改良版本。此外logback-classic完整实现SLF4J API使你可以很方便地更换成其它日记系统如Log4j或j.u.l。
              logback-access访问模块与Servlet容器集成提供通过Http来访问日记的功能。
 ### 1.4  Log4j2:   
                  Log4j2已经不仅仅是Log4j的一个升级版本了，而是从头到尾被重写的，
